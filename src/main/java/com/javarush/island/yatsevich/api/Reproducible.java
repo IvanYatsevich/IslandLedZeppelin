@@ -1,7 +1,8 @@
 package com.javarush.island.yatsevich.api;
 
-import com.javarush.island.yatsevich.entity.animals.BaseEntity;
+import com.javarush.island.yatsevich.island.Cell;
 
 public interface Reproducible {
-    BaseEntity reproduce();
+    void reproduce(Cell currentCell);
 }
+
